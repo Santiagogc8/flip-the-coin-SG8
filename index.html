@@ -18,22 +18,25 @@
   <body>
     <main>
       <section class="container">
-        <h1>Flip the coin</h1>
-        <p>Press the coin or the button to flip the coin</p>
-        <div class="coin-tainer">
-          <img src="resources/heads.svg" alt="coin-heads">
-          <img src="resources/tails.svg" alt="coin-heads">
-          <img src="resources/shadow.svg" alt="">
+        <div class="text-container">
+          <h1>Flip the coin</h1>
+          <p>Press the coin or the button to flip the coin</p>
         </div>
-        <button id="random">Flip</button>
+        <div class="coin-tainer">
+          <img src="resources/heads.svg" alt="coin-heads" class="coin" id="heads">
+          <img src="resources/tails.svg" alt="coin-tails" class="coin" id="tails">
+        </div>
+        <img src="resources/shadow.svg" alt="coin-shadow">
+        <p class="result">Result</p>
+        <button id="random">Random</button>
         <script src="flip.js"></script>
       </section>
       <footer class="author-info">
-      Coded by <a href="https://santiagoguzman.dev" target="_blank">Santiago Guzman</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </footer>
+        <p>Coded by <a href="https://santiagoguzman.dev" target="_blank">Santiago Guzman</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+          >devChallenges.io</a
+        >.</p>
+      </footer>
     </main>
   </body>
 </html>

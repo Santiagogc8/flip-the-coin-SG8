@@ -131,6 +131,10 @@ footer :hover{
 }
 
 @media (max-width: 640px) {
+    body{
+        overflow: hidden;
+    }
+
     .container h1{
         font-size: 4rem;
     }
